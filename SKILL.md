@@ -3,6 +3,10 @@ name: tiktok-account-teardown
 description: 获取TikTok真实一手数据，逆向拆解TikTok平台账号，根据账号互动数据及账号作品数据，产出可复刻的运营手册。当用户提出「拆解某账号」「分析对标号」「看看XX号为什么火」「复刻这个账号的风格」「抓取TikTok账号数据」「竞品账号分析」「对标账号数据」「账号诊断」等需求时使用。产出结构化数据 + 互动指标 + 形态拆解 + 差距定位。提供3个能力①关键词搜索（可按点赞/相关度排序、发布时间筛选）②博主作品获取，按主页链接或用户名批量获取公开作品列表，支持最新/最热排序 ③视频评论抓取，按视频链接或作品 ID 获取评论内容、评论者与互动数据，输出结构化 JSON（含作者、互动数据、标签、链接）。
 license: MIT
 version: 1.0.0
+display_name: 🎯TikTok账号拆解
+display_name_en: TikTok Account Teardown
+description_zh: 获取TikTok真实一手数据，逆向拆解TikTok平台账号，根据账号互动数据及账号作品数据，产出可复刻的运营手册。当用户提出「拆解某账号」「分析对标号」「看看XX号为什么火」「复刻这个账号的风格」「抓取TikTok账号数据」「竞品账号分析」「对标账号数据」「账号诊断」等需求时使用。产出结构化数据 + 互动指标 + 形态拆解 + 差距定位。
+description_en: Obtain first-hand authentic TikTok data and conduct reverse analysis of TikTok accounts. Generate replicable operation manuals based on account engagement metrics and content performance data. It is triggered when users request deconstruct a specific account, analyze benchmark accounts, find out why Account XX went viral, replicate this account’s style, crawl TikTok account data, competitor account analysis, benchmark account data, account diagnosis and similar requests. Output includes structured data, engagement indicators, content pattern breakdown, and gap identification.
 metadata:
   enabled: true
   type: command
